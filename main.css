@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0,0,0);
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    color: #13c8e0;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.picture-section {
+    background-image: url("images/massimiliano-morosinotto-MljwsnGwdOY-unsplash.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo {
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+.form-section {
+    width: 60vw;
+}
+
+.form-section p {
+    position: relative;
+    top: 15vh;
+    width: 55vw;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+footer > p {
+    padding: 10px;
+    text-align: center;
+    width: 40vw;
+}
